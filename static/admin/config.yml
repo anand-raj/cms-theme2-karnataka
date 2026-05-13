@@ -242,6 +242,7 @@ collections:
         name: registration_url
         widget: string
         required: false
+        hint: "Set to any non-empty value (e.g. 'enabled') to show the inline registration form on this event's page. Leave empty to hide the form."
 
       - label: Categories
         name: categories
